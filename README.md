@@ -10,11 +10,14 @@ This a capstone project of the microverse carriculum, meant to demonstrate the m
 
 ## Live Demo
 
+[Live Demo](https://mwenyoa.github.io/Microverse-m1-capstone/)
+
+[link to the video](https://www.loom.com/share/99bfce2e084741f683700619df20065a)
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 
 ### Setup
-- Run [git clone https://github.com/mwenyoa/Microverse-m1-capstone.git] 
+- Run git clone( https://github.com/mwenyoa/Microverse-m1-capstone.git) 
 ### Install
 - Run [npm install] to install all project dependencies
 
