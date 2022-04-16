@@ -8,7 +8,7 @@
 }
 
 @font-face {
-  font-family: 'COCOGOOSE-LETTERPRESS';
+  font-family: "COCOGOOSE-LETTERPRESS";
   src: url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.woff") format("woff"), url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.svg#COCOGOOSE-LETTERPRESS") format("svg"), url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.eot"), url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal;
@@ -22,7 +22,7 @@
   --primary: #d3d3d3;
   --secondary: #ec5242;
   --text-color: #1d1f24;
-  --background: rgba(230, 230, 230, 0.479);
+  --background: rgb(230 230 230 / 47.9%);
   --weight: bold;
 }
 
@@ -48,7 +48,7 @@ body {
   width: 100%;
   height: 100%;
   min-height: 100vh;
-  font-family: 'COCOGOOSE', Arial, sans-serif;
+  font-family: "COCOGOOSE", Arial, sans-serif;
   overflow-x: hidden;
   text-size-adjust: 100%;
   z-index: 1;
@@ -131,11 +131,11 @@ nav .nav_menu {
   max-width: 750px;
   min-height: 200px;
   width: 100%;
-  font-family: 'COCOGOOSE-LETTERPRESS', Arial, sans-serif;
+  font-family: "COCOGOOSE-LETTERPRESS", Arial, sans-serif;
 }
 
 .partner-list li {
-  margin: 1rem 1rem;
+  margin: 1rem;
   width: 150px;
 }
 
@@ -228,7 +228,7 @@ h2 {
 .home_section {
   padding: 80px 24px 0;
   background-color: var(--primary);
-  background-image: linear-gradient(rgba(119, 93, 93, 0.87), rgb(92, 67, 67)), url('../images/bg.jpg');
+  background-image: linear-gradient(rgb(119 93 93 / 87%), rgb(92 67 67)), url("../images/bg.jpg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -254,12 +254,11 @@ h2 {
   background-image: url("../images/font.jpg");
   background-size: cover;
   background-position: center center;
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 article h4 {
-  border: 3px solid rgb(255, 255, 255);
+  border: 3px solid rgb(255 255 255);
   background-color: var(--background);
   padding: 20px;
   margin: 20px 0;
@@ -284,7 +283,7 @@ article h4 {
 .program_section {
   width: 100%;
   background-repeat: repeat;
-  background-color: rgba(39, 42, 50, 0.993);
+  background-color: rgb(39 42 50 / 99.3%);
   background-image: url("../images/main-program-bg.png");
   padding: 10px 2%;
 }
@@ -580,7 +579,7 @@ footer .created p {
 
   nav .logo {
     display: block !important;
-    font-family: 'cocogoose', sans-serif;
+    font-family: "cocogoose", sans-serif;
     font-weight: bolder;
     color: var(--secondary);
     font-size: larger;
