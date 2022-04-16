@@ -54,10 +54,6 @@ body {
   z-index: 1;
 }
 
-.fa {
-  color: #fff;
-}
-
 header {
   width: 100%;
   position: fixed;
