@@ -51,6 +51,7 @@ body {
   font-family: 'COCOGOOSE', Arial, sans-serif;
   overflow-x: hidden;
   text-size-adjust: 100%;
+  z-index: 1;
 }
 
 .fa {
