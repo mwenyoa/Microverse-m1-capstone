@@ -21,7 +21,7 @@
 :root {
   --primary: #d3d3d3;
   --secondary: #ec5242;
-  --text-color: #272a31;
+  --text-color: #1d1f24;
   --background: rgba(230, 230, 230, 0.479);
   --weight: bold;
 }
@@ -59,8 +59,9 @@ header {
   top: 0;
   left: 0;
   font-family: inherit;
-  z-index: 1;
+  z-index: 99;
   background-color: var(--primary);
+
 }
 
 header nav.backg {
@@ -102,6 +103,7 @@ nav .logo img {
 nav .nav_menu {
   visibility: hidden;
   transform: translateY(-100%);
+  background-color: #fff;
 }
 
 .program li {
