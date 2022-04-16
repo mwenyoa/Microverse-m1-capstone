@@ -9,7 +9,8 @@ This a capstone project of the microverse carriculum, meant to demonstrate the m
 - Font Awesome CSS library
 
 ## Live Demo
-https://mwenyoa.github.io/Microverse-m1-capstone/
+
+[Live Demo]https://mwenyoa.github.io/Microverse-m1-capstone/)
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 
